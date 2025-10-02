@@ -1,0 +1,30 @@
+/* Estilo base para todos os botões */
+.button {
+  font-size: 1.2rem;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  color: white;
+  background-color: #444; /* Cor padrão para números */
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+/* Classes específicas para tipos de botões */
+.clear {
+  background-color: #c0392b; /* Vermelho */
+}
+
+.operator {
+  background-color: #f39c12; /* Laranja */
+}
+
+.equal {
+  background-color: #27ae60; /* Verde */
+  grid-column: span 2; /* Faz o botão de igual ocupar duas colunas */
+}
+
