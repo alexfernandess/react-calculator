@@ -21,3 +21,5 @@ function App() {
 }
 
 export default App;
+
+{/* TODO: <a name="passo-6"></a>Passo 6: Dando Vida aos Botões (Event Handlers)*/}
