@@ -1,30 +1,27 @@
-/* Estilo base para todos os botões */
 .button {
+  padding: 20px;
   font-size: 1.2rem;
-  padding: 15px;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: opacity 0.2s;
   color: white;
-  background-color: #444; /* Cor padrão para números */
+  background-color: #333;
 }
-
 .button:hover {
   opacity: 0.9;
 }
-
-/* Classes específicas para tipos de botões */
-.clear {
-  background-color: #c0392b; /* Vermelho */
+.button.clear {
+  background-color: #a5a5a5;
+  color: black;
 }
-
-.operator {
-  background-color: #f39c12; /* Laranja */
+.button.operator {
+  background-color: #f1a33c;
 }
-
-.equal {
-  background-color: #27ae60; /* Verde */
-  grid-column: span 2; /* Faz o botão de igual ocupar duas colunas */
+.button.equal {
+  grid-column: span 2;
+  background-color: #f1a33c;
 }
-
+.button.zero {
+  grid-column: span 2;
+}
